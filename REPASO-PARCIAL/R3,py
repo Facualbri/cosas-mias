@@ -1,0 +1,17 @@
+n=int(input("escribe el valor de n: "))
+i=int()
+
+menorvalor=int()
+
+for i in range(1,n+1):
+    valorentero=int(input("ingrese un numero: "))
+    if i == 1:
+        menorvalor=valorentero
+    else:
+        if valorentero<menorvalor:
+            menorvalor=valorentero
+            print(f"El menor valor por ahora es {menorvalor}")
+
+print(f"el menor valor ingresado fue {menorvalor}")
+
+
